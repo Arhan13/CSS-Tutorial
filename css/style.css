@@ -2,7 +2,12 @@ h2:hover {
 	color : red;
 }
 
-.subtitle {
+/*.subtitle {
+	color : blue;
+}
+*/
+/*Rewriting the subtitle class*/
+h2[class=subtitle]{
 	color : blue;
 }
 
@@ -10,21 +15,40 @@ h2:hover {
 	color : green;
 }
 
-li:nth-child(2) {
+/*li:nth-child(2) {
 	color : blue;
-}
-li:only-child{
+}*/
+/*li:only-child{
 	color : purple;
-}
+}*/
 
 td:only-child{
 	color: purple;
 }
 
-#google-link:link{
+/*#google-link:link{
 	color : blue;
 }
 
 #google-link:visited {
 	color : red;
+}*/
+
+h2 + a {
+	color : red;
+
+}
+/*Works when they sharethe same parent*/
+textarea ~ button {
+	color : purple;
+}
+/*Child Selector*/
+/*Selects direct children*/
+ul > li {
+	color : blue
+}
+/*Decendant Selector*/
+/*Will not stop at parent*/
+ul li {
+	color : green;
 }
