@@ -52,3 +52,25 @@ ul > li {
 ul li {
 	color : green;
 }
+
+/*Image Atribute Selector*/
+/* 
+* -> If it cointains anywhere
+^ -> All the paths that matches
+*/
+
+img[src*="../img/"] {
+	border : 10px solid black;
+}
+
+/*class should contain article-subtitle for this to work*/
+/*h2[class~=article-subtitle] {
+	background: green;
+}*/
+
+h2[class|=article-subtitle] {
+	background: green;
+}
+
+/*subtitle-878789
+subtitle-897898*/
