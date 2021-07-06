@@ -1,4 +1,4 @@
-.title {
+h2:hover {
 	color : red;
 }
 
@@ -6,6 +6,25 @@
 	color : blue;
 }
 
-#contact-us {
+#services {
 	color : green;
+}
+
+li:nth-child(2) {
+	color : blue;
+}
+li:only-child{
+	color : purple;
+}
+
+td:only-child{
+	color: purple;
+}
+
+#google-link:link{
+	color : blue;
+}
+
+#google-link:visited {
+	color : red;
 }
