@@ -1,19 +1,19 @@
-h2:hover {
+/*h2:hover {
 	color : red;
-}
+}*/
 
 /*.subtitle {
 	color : blue;
 }
 */
 /*Rewriting the subtitle class*/
-h2[class=subtitle]{
+/*h2[class=subtitle]{
 	color : blue;
 }
 
 #services {
 	color : green;
-}
+}*/
 
 /*li:nth-child(2) {
 	color : blue;
@@ -22,9 +22,9 @@ h2[class=subtitle]{
 	color : purple;
 }*/
 
-td:only-child{
+/*td:only-child{
 	color: purple;
-}
+}*/
 
 /*#google-link:link{
 	color : blue;
@@ -34,24 +34,24 @@ td:only-child{
 	color : red;
 }*/
 
-h2 + a {
+/*h2 + a {
 	color : red;
 
-}
+}*/
 /*Works when they sharethe same parent*/
-textarea ~ button {
+/*textarea ~ button {
 	color : purple;
-}
+}*/
 /*Child Selector*/
 /*Selects direct children*/
-ul > li {
+/*ul > li {
 	color : blue
-}
+}*/
 /*Decendant Selector*/
 /*Will not stop at parent*/
-ul li {
+/*ul li {
 	color : green;
-}
+}*/
 
 /*Image Atribute Selector*/
 /* 
@@ -59,14 +59,14 @@ ul li {
 ^ -> All the paths that matches
 */
 
-img[src*="../img/"] {
+/*img[src*="../img/"] {
 	border : 10px solid black;
-}
+}*/
 
 /*class should contain article-subtitle for this to work*/
-h2[class~=article-subtitle] {
+/*h2[class~=article-subtitle] {
 	background: green;
-}
+}*/
 
 /*h2[class|=article-subtitle] {
 	background: green;
@@ -80,3 +80,24 @@ subtitle-897898*/
 	property2 : value;
 	
 }*/
+
+body {
+	background : rgba(194, 184, 163, 1);
+}
+
+#title {
+	color : rgb(236, 214, 98);
+}
+
+.subtitle{
+	color : rgb(40, 78, 120);
+}
+
+#service-image {
+	height: 400px; /* Ignore this! */
+	width: 70%;	/* Ignore this! */
+
+	background: url("../img/img-2.jpg");
+	background-size: cover;
+	background-color: steelblue;
+}
