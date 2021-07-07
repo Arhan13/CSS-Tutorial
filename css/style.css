@@ -64,13 +64,19 @@ img[src*="../img/"] {
 }
 
 /*class should contain article-subtitle for this to work*/
-/*h2[class~=article-subtitle] {
-	background: green;
-}*/
-
-h2[class|=article-subtitle] {
+h2[class~=article-subtitle] {
 	background: green;
 }
 
+/*h2[class|=article-subtitle] {
+	background: green;
+}*/
+
 /*subtitle-878789
 subtitle-897898*/
+
+/*selector {
+	property : value;
+	property2 : value;
+	
+}*/
